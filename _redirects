@@ -1,0 +1,2 @@
+# Netlify Proxy Rule to bypass CORS
+/api/*  https://amscript.xyz/PublicApi/:splat  200
