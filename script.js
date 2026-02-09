@@ -69,7 +69,17 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (code === 'Paid-200') {
                 modal.style.display = 'none'; // Unlock with code
-            } else {
+            }
+            else if (code === 'paid-200') {
+                modal.style.display = 'none'; // Unlock with code
+            }
+                else if (code === 'Paid-100') {
+                modal.style.display = 'none'; // Unlock with code
+            }
+                    else if (code === 'paid-100') {
+                modal.style.display = 'none'; // Unlock with code
+            }
+            else {
                 codeError.style.display = 'block';
                 // Error visual feedback
                 inputLine.style.borderColor = 'red';
