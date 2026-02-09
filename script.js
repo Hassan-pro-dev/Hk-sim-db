@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         followBtn.addEventListener('click', function() {
             window.open(channelUrl, '_blank');
-            modal.style.display = 'none'; // Unlock after clicking
+            // modal.style.display = 'none'; // Removed: Only code can unlock now
         });
 
         // Access Code Logic
