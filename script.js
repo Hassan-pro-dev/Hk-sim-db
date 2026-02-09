@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const code = accessCodeInput.value.trim();
             const inputLine = accessCodeInput.parentElement;
             
-            if (code === 'Paid-200' code === 'paid-200' code === 'Paid-100' code === 'paid-100') {
+            if (code === 'Paid-200') {
                 modal.style.display = 'none'; // Unlock with code
             } else {
                 codeError.style.display = 'block';
